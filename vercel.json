@@ -1,1 +1,9 @@
-{"rewrites":[{"source":"/api/:match*","destination":"https://netease-cloud-music-api-rosy-eight.vercel.app/:match*"}]}
+{
+  "rewrites": [
+    {
+      "source": "/api/:match*",
+      "destination": "https://netease-cloud-music-api-rosy-eight.vercel.app/:match*"
+    }
+  ],
+  "installCommand": "yarn --ignore-engines"
+}
